@@ -1,0 +1,4 @@
+# Pinned versions used for the live demo in the README.
+requests==2.32.3
+sigstore==3.6.1
+numpy==2.1.0

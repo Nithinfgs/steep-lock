@@ -1,0 +1,7 @@
+# Copy to steep.toml. All keys are optional.
+min_age_days = 7          # versions younger than this are flagged "too-new"
+fail_on = "medium"        # low | medium | high | never  (exit code 1 at or above)
+allow = [                 # skip checks: "eco:name@version" or "eco:name" for any version
+  # "npm:left-pad@1.3.0",
+  # "pypi:my-internal-mirror-pkg",
+]
